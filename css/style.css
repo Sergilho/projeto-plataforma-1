@@ -104,3 +104,25 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+
+/* Página de Login */
+
+#login {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    border: none;
+}
+ 
+.container-login {
+    color:  rgb(58, 58, 58);
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    
+}

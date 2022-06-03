@@ -74,53 +74,64 @@ input:focus {
 #forgot-pass {
     text-align: left;
     margin-right: 100px;
+    text-decoration: none;
+    color: #323232;
+    margin-top: 15px;
 }
 
-#forgot-pass #bt-login {
-    margin-right: 100px;
-}
+
 
 .login-container {
     background-color: rgba(255, 255, 255, 0.425);
     max-width: 400px;
     padding: 20px 30px;
     margin-top: 10vh;
-    border-radius: 20px;
     text-align: center;
 }
 
 /* Formulario */
 
-form {
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
 label, input {
-    display: block;
-    width: 60%;
-    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
-
+#bt-login {
+    max-width: 80px;
+    margin-top: 15px;
+}
 
 #forgot-pass {
     text-align: right;
     display: block;
+    
 }
 
 .login-botao {
+    display: flex;
     text-align: center;
-    text-transform: uppercase;
     font-weight: bold;
-    border: none;
-    height: 40px;
     border-radius: 20px;
     margin-top: 10px;
     color: white;
     background-color: #08558b;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    margin-top: 80px;
+    display: flex;
+    margin-left: 50px; 
+}
+
+#github {
+    margin-right: 300px;
+}
+
+.footer-par {
+    margin-left: 250px;
 }
 
 

@@ -1,0 +1,76 @@
+* {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body {
+    margin-left: 80px;
+    
+    
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Navbar */
+
+.logo {
+    width: 150px;
+    margin-left: 80px;
+    margin-top: -5px;
+}
+
+.nav-bar {
+    height: 80px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.nav-item {
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(66, 66, 66)
+}
+
+.navbar-brand {
+    margin: 20px;
+}
+
+#nav-bt {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main */
+
+#container-card{
+    display: flex;
+    margin: 20px;
+}
+
+#container-card {
+    margin-top: 100px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 80px;
+    display: flex;
+}
+
+#github {
+    margin-right: 400px;
+}
+
+#footer-par {
+    margin-left: 340px;
+    text-decoration: none;
+}
